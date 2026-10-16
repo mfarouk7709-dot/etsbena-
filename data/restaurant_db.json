@@ -1,0 +1,588 @@
+{
+  "settings": {
+    "restaurantName": "المطعم الإيطالي (رامبل زون)",
+    "nameNotice": "الاسم التجاري الرسمي قابل للتعديل فوراً من لوحة الإدارة حسب ترخيص ونشاط المطعم.",
+    "slogan": "المذاق الإيطالي الأصيل بأيدي أمهر الطهاة وفي قلب رامبل زون 15 مايو",
+    "phone": "01037313419",
+    "whatsapp": "01037313419",
+    "address": "Ramble Zone، قسم 15 مايو، القاهرة، مصر",
+    "city": "القاهرة",
+    "area": "قسم 15 مايو",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ramble+Zone+15+May+Cairo",
+    "workingHours": "يومياً من 12:00 ظهراً حتى 01:00 بعد منتصف الليل (قابلة للتعديل)",
+    "workingDays": "طوال أيام الأسبوع",
+    "currency": "ج.م",
+    "minOrderAmount": 60,
+    "isAcceptingOrders": true,
+    "deliveryZones": [
+      {
+        "id": "zone-15may-central",
+        "name": "قسم 15 مايو (رامبل زون والمنطقة المركزية)",
+        "fee": 20,
+        "estimatedTime": "25-35 دقيقة"
+      },
+      {
+        "id": "zone-15may-extensions",
+        "name": "15 مايو - مجاورات الامتداد والحي السكني",
+        "fee": 25,
+        "estimatedTime": "30-40 دقيقة"
+      },
+      {
+        "id": "zone-helwan",
+        "name": "مدينة حلوان والمناطق المجاورة",
+        "fee": 35,
+        "estimatedTime": "40-50 دقيقة"
+      },
+      {
+        "id": "zone-pickup",
+        "name": "استلام مباشر من المطعم (رامبل زون - تيك أواي)",
+        "fee": 0,
+        "estimatedTime": "15-25 دقيقة"
+      }
+    ],
+    "socialFacebook": "https://facebook.com",
+    "socialInstagram": "https://instagram.com",
+    "adminPasswordHash": "admin123"
+  },
+  "categories": [
+    {
+      "id": "cat-pizza",
+      "nameAr": "بيتزا نابوليتانا",
+      "nameEn": "Neapolitan Pizza",
+      "description": "تُخبز على الحجر بدرجة حرارة 450 مئوية مع دقيق إيطالي كابوتو وصلصة سان مارزانو",
+      "icon": "pizza",
+      "sortOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "cat-pasta",
+      "nameAr": "باستا طازجة",
+      "nameEn": "Fresh Handmade Pasta",
+      "description": "باستا إيطالية مصنوعة يدوياً يومياً وتُطهى بدرجة الدنتي المثالية",
+      "icon": "pasta",
+      "sortOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "cat-antipasti",
+      "nameAr": "مقبلات وبروسكيتا",
+      "nameEn": "Antipasti & Starters",
+      "description": "مقبلات إيطالية خفيفة تُحضر بأجود أنواع الأجبان وزيت الزيتون البكر",
+      "icon": "appetizer",
+      "sortOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "cat-secondi",
+      "nameAr": "أطباق رئيسية",
+      "nameEn": "Secondi & Mains",
+      "description": "وصفات اللحوم والدواجن الإيطالية الكلاسيكية بالتوابل التوسكانية",
+      "icon": "steak",
+      "sortOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "cat-dolci",
+      "nameAr": "حلويات إيطالية",
+      "nameEn": "Dolci & Desserts",
+      "description": "ختام مثالي لوجبتك بأشهر الحلويات الإيطالية المجهزة بالجبن المسكربوني والقهوة",
+      "icon": "dessert",
+      "sortOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "cat-bevande",
+      "nameAr": "مشروبات منعشة",
+      "nameEn": "Beverages & Mocktails",
+      "description": "موكتيلات إيطالية منعشة، عصائر طبيعية ومياه فوارة",
+      "icon": "drink",
+      "sortOrder": 6,
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-margherita-dop",
+      "categoryId": "cat-pizza",
+      "nameAr": "بيتزا مارجريتا نابوليتانا D.O.P",
+      "nameEn": "Pizza Margherita D.O.P",
+      "description": "البيتزا الإيطالية الكلاسيكية: صلصة طماطم سان مارزانو، جبنة موتزاريلا دي بوفالا طازجة، ريحان إيطالي وزيت زيتون بكر ممتاز.",
+      "price": 165,
+      "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "15-20 دقيقة",
+      "calories": 820,
+      "sizes": [
+        {
+          "id": "s-reg",
+          "nameAr": "وسط (30 سم)",
+          "nameEn": "Medium (30cm)",
+          "price": 165,
+          "isDefault": true
+        },
+        {
+          "id": "s-large",
+          "nameAr": "كبير (36 سم)",
+          "nameEn": "Large (36cm)",
+          "price": 215
+        }
+      ],
+      "extras": [
+        {
+          "id": "ex-mozzarella",
+          "nameAr": "جبنة موتزاريلا دي بوفالا إضافية",
+          "nameEn": "Extra Buffalo Mozzarella",
+          "price": 35
+        },
+        {
+          "id": "ex-mushrooms",
+          "nameAr": "مشروم بورتوبيلو طازج",
+          "nameEn": "Fresh Portobello Mushrooms",
+          "price": 25
+        },
+        {
+          "id": "ex-pesto-drizzle",
+          "nameAr": "رذاذ صوص بيستو الريحان",
+          "nameEn": "Basil Pesto Drizzle",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "prod-diavola",
+      "categoryId": "cat-pizza",
+      "nameAr": "بيتزا ديافولا حارة (بيبروني)",
+      "nameEn": "Pizza Diavola Piccante",
+      "description": "بيبروني إيطالي فاخر، جبنة فيور دي لاتي، صوص طماطم متبل، رقائق الفلفل الحار وزيت زيتون حار مع ريحان.",
+      "price": 195,
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "15-20 دقيقة",
+      "calories": 950,
+      "sizes": [
+        {
+          "id": "s-reg",
+          "nameAr": "وسط (30 سم)",
+          "nameEn": "Medium (30cm)",
+          "price": 195,
+          "isDefault": true
+        },
+        {
+          "id": "s-large",
+          "nameAr": "كبير (36 سم)",
+          "nameEn": "Large (36cm)",
+          "price": 250
+        }
+      ],
+      "extras": [
+        {
+          "id": "ex-extra-pepperoni",
+          "nameAr": "شرائح بيبروني إضافية",
+          "nameEn": "Extra Pepperoni",
+          "price": 40
+        },
+        {
+          "id": "ex-jalapeno",
+          "nameAr": "فلفل هالبينو حار",
+          "nameEn": "Jalapeno Slices",
+          "price": 15
+        },
+        {
+          "id": "ex-cheese-crust",
+          "nameAr": "أطراف محشوة بالجبن",
+          "nameEn": "Cheese Stuffed Crust",
+          "price": 45
+        }
+      ]
+    },
+    {
+      "id": "prod-quattro-formaggi",
+      "categoryId": "cat-pizza",
+      "nameAr": "بيتزا كواترو فورماجي (الأجبان الأربعة)",
+      "nameEn": "Pizza Quattro Formaggi",
+      "description": "مزيج فاخر من 4 أجبان إيطالية أصيلة: موتزاريلا، جورجونزولا كريمية، بارميجيانو ريجيانو معتق، وجبن فونتينا.",
+      "price": 215,
+      "image": "https://images.unsplash.com/photo-1573821663912-569905455b1c?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "18-22 دقيقة",
+      "calories": 1040,
+      "sizes": [
+        {
+          "id": "s-reg",
+          "nameAr": "وسط (30 سم)",
+          "nameEn": "Medium (30cm)",
+          "price": 215,
+          "isDefault": true
+        },
+        {
+          "id": "s-large",
+          "nameAr": "كبير (36 سم)",
+          "nameEn": "Large (36cm)",
+          "price": 275
+        }
+      ],
+      "extras": [
+        {
+          "id": "ex-honey-truffle",
+          "nameAr": "عسل جبلي مع زيت ترفل",
+          "nameEn": "Honey Truffle Drizzle",
+          "price": 30
+        },
+        {
+          "id": "ex-walnuts",
+          "nameAr": "عين جمل محمص مقرمش",
+          "nameEn": "Toasted Walnuts",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "prod-tartufo-funghi",
+      "categoryId": "cat-pizza",
+      "nameAr": "بيتزا تارتوفو ومشروم بري",
+      "nameEn": "Pizza Tartufo e Funghi",
+      "description": "صلصة كريمة الترفل الإيطالية الفاخرة، مشروم بورتوبيلو، جبنة موتزاريلا، بارميزان وزيت الكمأة الأسود.",
+      "price": 240,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "18-22 دقيقة",
+      "calories": 910,
+      "sizes": [
+        {
+          "id": "s-reg",
+          "nameAr": "وسط (30 سم)",
+          "nameEn": "Medium (30cm)",
+          "price": 240,
+          "isDefault": true
+        },
+        {
+          "id": "s-large",
+          "nameAr": "كبير (36 سم)",
+          "nameEn": "Large (36cm)",
+          "price": 310
+        }
+      ],
+      "extras": [
+        {
+          "id": "ex-extra-truffle",
+          "nameAr": "زيت كمأة إضافي",
+          "nameEn": "Extra Truffle Oil",
+          "price": 35
+        },
+        {
+          "id": "ex-parmesan",
+          "nameAr": "رقائق جبن بارميزان",
+          "nameEn": "Parmesan Shavings",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "prod-fettuccine-alfredo",
+      "categoryId": "cat-pasta",
+      "nameAr": "فيتوتشيني ألفريدو مع الدجاج والمشروم",
+      "nameEn": "Fettuccine Alfredo con Pollo e Funghi",
+      "description": "باستا فيتوتشيني يدوية الصنع مغمورة في صوص الألفريدو المخملي مع بارميجيانو ريجيانو وصدور دجاج مشوية ومشروم طازج.",
+      "price": 185,
+      "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "15-20 دقيقة",
+      "calories": 780,
+      "sizes": [
+        {
+          "id": "sz-single",
+          "nameAr": "وجبة فردية مشبعة",
+          "nameEn": "Single Portion",
+          "price": 185,
+          "isDefault": true
+        }
+      ],
+      "extras": [
+        {
+          "id": "ex-chicken",
+          "nameAr": "دجاج مشوي إضافي (100 جم)",
+          "nameEn": "Extra Grilled Chicken",
+          "price": 45
+        },
+        {
+          "id": "ex-parm",
+          "nameAr": "جبن بارميزان معتق إضافي",
+          "nameEn": "Extra Aged Parmesan",
+          "price": 25
+        },
+        {
+          "id": "ex-garlic-bread",
+          "nameAr": "خبز ثوم إيطالي مقرمش",
+          "nameEn": "Garlic Bread (2 pcs)",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "prod-carbonara",
+      "categoryId": "cat-pasta",
+      "nameAr": "سباغيتي كاربونارا الأصلية",
+      "nameEn": "Spaghetti alla Carbonara Tradizionale",
+      "description": "الوصفة الرومانية الأصلية دون كريمة: جوانشيالي إيطالي مقرمش، صفار بيض طازج، جبن بيكورينو رومانو، وفلفل أسود مجروش طازجاً.",
+      "price": 195,
+      "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "15-18 دقيقة",
+      "calories": 750,
+      "sizes": [
+        {
+          "id": "sz-single",
+          "nameAr": "وجبة فردية مشبعة",
+          "nameEn": "Single Portion",
+          "price": 195,
+          "isDefault": true
+        }
+      ],
+      "extras": [
+        {
+          "id": "ex-pecorino",
+          "nameAr": "جبن بيكورينو رومانو إضافي",
+          "nameEn": "Extra Pecorino Romano",
+          "price": 30
+        },
+        {
+          "id": "ex-crispy-guanciale",
+          "nameAr": "جوانشيالي مقرمش إضافي",
+          "nameEn": "Extra Crispy Guanciale",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "prod-lasagna-bolognese",
+      "categoryId": "cat-pasta",
+      "nameAr": "لازانيا بولونيز بالفرن الحجري",
+      "nameEn": "Lasagna alla Bolognese al Forno",
+      "description": "طبقات من المكرونة الطازجة المحضرة يدوياً، مع صوص البولونيز باللحم البقري المطهو ببطء لمدة 4 ساعات، وبشاميل ناعم وجبن موزاريلا ذائب.",
+      "price": 215,
+      "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "20-25 دقيقة",
+      "calories": 890,
+      "sizes": [
+        {
+          "id": "sz-single",
+          "nameAr": "طبق فرن فردي",
+          "nameEn": "Single Baking Dish",
+          "price": 215,
+          "isDefault": true
+        }
+      ],
+      "extras": [
+        {
+          "id": "ex-cheese-top",
+          "nameAr": "طبقة إضافية من الجبن الذائب",
+          "nameEn": "Extra Melted Cheese Layer",
+          "price": 35
+        },
+        {
+          "id": "ex-garlic-bread",
+          "nameAr": "خبز ثوم إيطالي مقرمش",
+          "nameEn": "Garlic Bread (2 pcs)",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "prod-penne-arrabbiata",
+      "categoryId": "cat-pasta",
+      "nameAr": "بيني ألا أرابياتا (حار ولذيذ)",
+      "nameEn": "Penne all'Arrabbiata",
+      "description": "مكرونة بيني مع صلصة طماطم إيطالية حارة، ثوم محمر بزيت الزيتون البكر، ريحان وبقدونس إيطالي مع رشة جبن بارميزان.",
+      "price": 145,
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "12-15 دقيقة",
+      "calories": 610,
+      "sizes": [
+        {
+          "id": "sz-single",
+          "nameAr": "وجبة فردية",
+          "nameEn": "Single Portion",
+          "price": 145,
+          "isDefault": true
+        }
+      ],
+      "extras": [
+        {
+          "id": "ex-chicken",
+          "nameAr": "إضافة دجاج مشوي",
+          "nameEn": "Add Grilled Chicken",
+          "price": 45
+        },
+        {
+          "id": "ex-burrata",
+          "nameAr": "كرة جبنة بوراتا طازجة على الوجه",
+          "nameEn": "Fresh Burrata Ball",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "prod-bruschetta-pomodoro",
+      "categoryId": "cat-antipasti",
+      "nameAr": "بروسكيتا البندورة والريحان",
+      "nameEn": "Bruschetta al Pomodoro e Basilico",
+      "description": "شرائح خبز الساوردو الإيطالي المحمص بزيت الزيتون والثوم، مغطاة بطماطم متبلة، أوراق ريحان طازجة، وخلاصة بلسميك مودينا المعتق.",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "10 دقائق",
+      "calories": 320,
+      "sizes": [],
+      "extras": [
+        {
+          "id": "ex-feta-goat",
+          "nameAr": "جبن ماعز كريمي",
+          "nameEn": "Creamy Goat Cheese",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "prod-arancini",
+      "categoryId": "cat-antipasti",
+      "nameAr": "أرانشيني سيسيليانو بالجبن والراغو",
+      "nameEn": "Arancini Siciliani al Ragù",
+      "description": "كرات الأرز الإيطالي المقرمشة (3 قطع) المحشوة بلحم الراغو وجبنة الموزاريلا والبازلاء الحلوة، تقدم مع صوص المارينارا الساخن.",
+      "price": 125,
+      "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "12-15 دقيقة",
+      "calories": 480,
+      "sizes": [],
+      "extras": [
+        {
+          "id": "ex-extra-dip",
+          "nameAr": "صوص مارينارا إضافي",
+          "nameEn": "Extra Marinara Dip",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "prod-pollo-parmigiana",
+      "categoryId": "cat-secondi",
+      "nameAr": "دجاج ألا بارميجيانا بالفرن",
+      "nameEn": "Pollo alla Parmigiana",
+      "description": "صدر دجاج مقرمش مغطى بصلصة المارينارا الإيطالية وجبنة الموزاريلا والبارميزان المخبوزة في الفرن، يقدم مع سباغيتي بالزيت والأعشاب.",
+      "price": 235,
+      "image": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "20-25 دقيقة",
+      "calories": 840,
+      "sizes": [],
+      "extras": [
+        {
+          "id": "ex-cheese-crust",
+          "nameAr": "جبنة موزاريلا مضاعفة",
+          "nameEn": "Double Mozzarella",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "prod-tiramisu",
+      "categoryId": "cat-dolci",
+      "nameAr": "تيراميسو كلاسيكو بالمسكربوني",
+      "nameEn": "Tiramisù Tradizionale",
+      "description": "الحلوى الإيطالية الأشهر عالمياً: بسكويت ليدي فينجرز مغموس بإسبريسو إيطالي مركز، مع كريمة الجبن المسكربوني الفاخر وبودرة الكاكاو البلجيكي.",
+      "price": 110,
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "جاهز للتقديم",
+      "calories": 420,
+      "sizes": [],
+      "extras": [
+        {
+          "id": "ex-espresso-shot",
+          "nameAr": "شوت إسبريسو جانبي",
+          "nameEn": "Side Espresso Shot",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "prod-panna-cotta",
+      "categoryId": "cat-dolci",
+      "nameAr": "بانا كوتا بالتوت البري الأحمر",
+      "nameEn": "Panna Cotta ai Frutti Rossi",
+      "description": "بانا كوتا كريمية ناعمة مع فانيليا طبيعية مغطاة بصوص التوت البري الطازج وقليل من النعناع.",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "جاهز للتقديم",
+      "calories": 360,
+      "sizes": [],
+      "extras": []
+    },
+    {
+      "id": "prod-limonata",
+      "categoryId": "cat-bevande",
+      "nameAr": "ليموناتا صقلية بالنعناع والمياه الفوارة",
+      "nameEn": "Limonata Siciliana Frizzante",
+      "description": "عصير الليمون الصقلي الطازج مع أوراق النعناع المفرومة ولمسة من المياه الفوارة الإيطالية المنعشة.",
+      "price": 55,
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "5 دقائق",
+      "calories": 110,
+      "sizes": [],
+      "extras": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1792183589488",
+      "orderNumber": "ITL-5807",
+      "customerName": "محمد أحمد",
+      "customerPhone": "01037313419",
+      "deliveryType": "delivery",
+      "deliveryAddress": "مجاورة 3، عمارة 12، 15 مايو",
+      "deliveryZoneId": "zone-15may-central",
+      "deliveryZoneName": "قسم 15 مايو (رامبل زون والمنطقة المركزية)",
+      "paymentMethod": "cash",
+      "status": "new",
+      "items": [
+        {
+          "productId": "prod-margherita-dop",
+          "nameAr": "بيتزا مارجريتا نابوليتانا D.O.P",
+          "nameEn": "Pizza Margherita D.O.P",
+          "sizeName": "وسط (30 سم)",
+          "extras": [],
+          "unitPrice": 165,
+          "quantity": 2,
+          "subtotal": 330
+        }
+      ],
+      "subtotal": 330,
+      "deliveryFee": 20,
+      "discount": 0,
+      "total": 350,
+      "createdAt": "2026-10-16T20:46:29.488Z",
+      "updatedAt": "2026-10-16T20:46:29.488Z"
+    }
+  ],
+  "adminTokens": [
+    "admin-session-active-token"
+  ]
+}

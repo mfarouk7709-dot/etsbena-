@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix مطعم إيطالي - رامبل زون 15 مايو",
+  "description": "الموقع الرسمي وقائمة الطعام لمطعم المأكولات الإيطالية في رامبل زون، قسم 15 مايو، القاهرة. خدمة الطلب والتوصيل السريع والمنيو الإلكتروني التفاعلي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
